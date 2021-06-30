@@ -10,61 +10,209 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <nav class="relative lg:flex lg:items-center w-full max-w-7xl mx-auto xl:px-6 sm:px-8 px-6">
-        <div class="flex flex-no-shrink items-center h-24">
+    <!-- Header Start -->
+    <header class="relative">
+        <!-- Right Side Yellow background -->
+        <div class="bg-yellow-10 h-24 w-1/2 ml-auto hidden lg:block absolute inset-x-0"></div>
+        <!-- Navbar Start -->
+        <nav class="relative lg:flex lg:items-center container w-full max-w-1468px mx-auto lg:px-6">
+            <div class="flex flex-no-shrink justify-between items-center h-24 lg:px-0 px-6">
 
-            <!-- Logo  -->
-            <a href="./index.html"
-                class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-black dark:text-white no-underline flex items-center">
-                <img src="./assets/images/logo.png" alt="" class="h-28">
-            </a>
-            <!-- Search Button -->
-            <a href="#"
-                class="lg:hidden ml-auto flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-semibold text-black dark:text-white no-underline flex items-center">
-                <svg class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.41 73.375">
-                    <path
-                        d="M72.94 68.598L51.63 47.283a29.077 29.077 0 10-4.32 4.323l21.31 21.315a1.525 1.525 0 002.16 0l2.16-2.161a1.523 1.523 0 000-2.162zm-43.88-16.63a22.931 22.931 0 1122.93-22.931 22.958 22.958 0 01-22.93 22.931z"
-                        fill="current" fill-rule="evenodd" />
-                </svg>
-            </a>
-            <!-- Menu Button -->
-            <button class="block lg:hidden cursor-pointer relative w-12 h-12 px-4 py-2">
-                <svg class="fill-current text-black dark:text-white w-5 h-5" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20">
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                </svg>
-                <!-- <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <!-- Logo  -->
+                <a href="./index.html"
+                    class="flex-no-grow flex-no-shrink relative py-2 pr-4 leading-normal text-black dark:text-white no-underline flex items-center">
+                    <img src="./assets/images/logo.png" alt="" class="h-20">
+                </a>
+                <!-- Menu Button -->
+                <button class="block lg:hidden cursor-pointer relative w-12 h-12 px-4 py-2">
+                    <svg class="fill-current text-black dark:text-white w-5 h-5" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20">
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                    <!-- <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path
                     d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
             </svg> -->
-            </button>
+                </button>
+            </div>
+            <!-- Menus -->
+            <div class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
+                <div class="lg:flex lg:items-stretch lg:justify-end ml-auto">
+                    <a href="#"
+                        class="flex-no-grow flex-no-shrink relative lg:h-24 py-2 px-6 lg:px-0 text-base sm:text-lg md:text-xl xl:text-2xl leading-normal font-raleway font-semibold bg-purple-10 text-white no-underline flex items-center justify-center lg:w-[170px] xl:w-[190px]">Ways
+                        to Give</a>
+                    <a href="#"
+                        class="flex-no-grow flex-no-shrink relative lg:h-24 py-2 px-6 lg:px-0 text-base sm:text-lg md:text-xl xl:text-2xl leading-normal font-raleway font-semibold bg-green-10 text-white no-underline flex items-center justify-center lg:w-[170px] xl:w-[190px]">Events</a>
+                    <a href="#"
+                        class="flex-no-grow flex-no-shrink relative lg:h-24 py-2 px-6 lg:px-0 text-base sm:text-lg md:text-xl xl:text-2xl leading-normal font-raleway font-semibold bg-red-10 text-white no-underline flex items-center justify-center lg:w-[170px] xl:w-[190px]">About
+                        Us
+                    </a>
+                    <a href="#"
+                        class="flex-no-grow flex-no-shrink relative lg:h-24 py-2 px-6 lg:px-0 text-base sm:text-lg md:text-xl xl:text-2xl leading-normal font-raleway font-semibold bg-blue-10 text-white no-underline flex items-center justify-center lg:w-[170px] xl:w-[190px]">Donate
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Heros Section Start -->
+    <main class="w-full h-[600px] relative">
+        <img src="./assets/images/bg-1.jpg" alt="" class="w-full h-full object-cover object-center inset-0 absolute">
+        <div class="relative container w-full xl:max-w-1468px mx-auto xl:px-6 sm:px-8 px-6 py-14">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] text-white font-bold font-playfair mb-3">
+                Celebrating All Things Kansas</h1>
+            <p class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold font-raleway text-yellow-20">
+                Agriculture/Industry/Culture</p>
         </div>
-        <!-- Menus -->
-        <div class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
-            <div class="lg:flex lg:items-stretch lg:justify-end ml-auto">
-                <a href="./index.html"
-                    class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-semibold text-black dark:text-white no-underline flex items-center">Home</a>
-                <a href="#"
-                    class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-semibold text-black dark:text-white no-underline flex items-center">Event</a>
-                <a href="./about.html"
-                    class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-semibold text-black dark:text-white no-underline flex items-center">About
-                </a>
-                <a href="./contact.html"
-                    class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-semibold text-black dark:text-white no-underline flex items-center">Contact
-                </a>
-                <a href="#"
-                    class="hidden flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal font-semibold text-black dark:text-white no-underline lg:flex items-center">
-                    <svg class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.41 73.375">
-                        <path
-                            d="M72.94 68.598L51.63 47.283a29.077 29.077 0 10-4.32 4.323l21.31 21.315a1.525 1.525 0 002.16 0l2.16-2.161a1.523 1.523 0 000-2.162zm-43.88-16.63a22.931 22.931 0 1122.93-22.931 22.958 22.958 0 01-22.93 22.931z"
-                            fill="current" fill-rule="evenodd" />
-                    </svg>
-                </a>
+    </main>
+    <!-- Heros Section End -->
+
+
+    <!-- Sponsor Section Start -->
+    <section class="relative container w-full xl:max-w-1468px mx-auto xl:px-6 sm:px-8 px-6 py-14">
+        <h1
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] text-blue-10 font-bold font-playfair text-center mb-3">
+            There’s all sorts of ways to get involved!</h1>
+        <p class="text-sm sm:text-base md:text-lg text-purple-10 font-playfair font-bold text-center mb-11">Learn about
+            all of them ></p>
+        <div class="max-w-6xl mx-auto mb-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="">
+                    <img src="./assets/images/img-1.jpg" alt=""
+                        class="w-full h-[310px] object-cover object-center mb-5">
+                    <h3
+                        class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] text-center font-playfair font-bold text-dark-10 mb-5">
+                        Boots & Bling</h3>
+                    <!-- Border -->
+                    <div class="border-t-2 border-gray-10 text-center pt-3">
+                        <p class="text-sm sm:text-base md:text-lg text-black font-raleway text-center mb-6">Putting the
+                            “fun” in
+                            FUNDING</p>
+                        <div class="">
+                            <a href="#"
+                                class="text-white font-medium font-raleway px-10 py-4 bg-blue-10 filter drop-shadow-10">Find
+                                out
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="./assets/images/img-2.jpg" alt=""
+                        class="w-full h-[310px] object-cover object-center mb-5">
+                    <h3
+                        class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] text-center font-playfair font-bold text-dark-10 mb-5">
+                        Grand Drive</h3>
+                    <!-- Border -->
+                    <div class="border-t-2 border-gray-10 text-center pt-3">
+                        <p class="text-sm sm:text-base md:text-lg text-black font-raleway text-center mb-6">Beefin’ up
+                            our State Fair</p>
+                        <div class="">
+                            <a href="#"
+                                class="text-white font-medium font-raleway px-6 py-4 bg-blue-10 filter drop-shadow-10">Where’s
+                                the
+                                beef?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="./assets/images/img-3.jpg" alt=""
+                        class="w-full h-[310px] object-cover object-center mb-5">
+                    <h3
+                        class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[26px] text-center font-playfair font-bold text-dark-10 mb-5">
+                        Legacy Benches</h3>
+                    <!-- Border -->
+                    <div class="border-t-2 border-gray-10 text-center pt-3">
+                        <p class="text-sm sm:text-base md:text-lg text-black font-raleway text-center mb-6">Support our
+                            fair and honor a loved one</p>
+                        <div class="">
+                            <a href="#"
+                                class="text-white font-medium font-raleway px-10 py-4 bg-blue-10 filter drop-shadow-10">Take
+                                a
+                                seat</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- Navbar End -->
+    </section>
+    <!-- Sponsor Section End -->
+
+
+    <!-- About Us Section Start -->
+    <section class="bg-gray-20">
+        <div class="relative container w-full xl:max-w-6xl mx-auto xl:px-6 sm:px-8 px-6 py-12">
+            <div class="flex flex-wrap lg:flex-nowrap items-center lg:space-x-12">
+                <div class="w-full lg:w-1/2 xl:w-7/12">
+                    <div class="flex flex-wrap items-center">
+                        <div class="w-5/12 mb-3">
+                            <img src="./assets/images/img-4.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-7/12 pl-12  mb-3">
+                            <img src="./assets/images/img-5.jpg" alt="" class="w-full">
+                        </div>
+                        <div class="w-6/12  mb-3">
+                            <img src="./assets/images/img-6.jpg" alt="" class="w-full">
+                        </div>
+                        <div class="w-6/12 pl-3 mb-3">
+                            <img src="./assets/images/img-7.jpg" alt="" class="w-full">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-5/12">
+                    <h1
+                        class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] text-blue-10 font-bold font-playfair text-center mb-3">
+                        We LOVE to party!</h1>
+                    <p
+                        class="text-lg sm:text-xl md:text-2xl xl:text-[30px] text-center font-raleway text-dark-20 mb-14">
+                        From smaller
+                        events throughout the year to annual
+                        fundraising events to the grand daddy event of the year, the Kansas State Fair, there’s always a
+                        way for you to get involved and have fun at the same time.
+                    </p>
+                    <div class="text-center">
+                        <a href="#"
+                            class="text-white font-medium font-raleway px-10 py-4 bg-blue-10 filter drop-shadow-10">Let’s
+                            Party!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Testmonial Section Start -->
+    <section class="bg-purple-20">
+        <div class="relative container w-full xl:max-w-6xl mx-auto xl:px-6 sm:px-8 px-6 py-16">
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="">
+                    <h1
+                        class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] text-gray-20 font-bold font-playfair text-center mb-4">
+                        Get to know us </h1>
+                    <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-center text-gray-20 font-raleway mb-14">
+                        We’d love to
+                        have you buy the office some time for a tour and a cup of coffee. Our staff is great. Our lawn
+                        out front is well manicured. Our friends are cool. I’m running out of things to write here and
+                        I’m just trying to fill up space right now for this section of the website. I think I’m getting
+                        close to filling up this bounding box though...and a few more words should just about do the
+                        trick...there we go.
+                    </p>
+                    <div class="text-center">
+                        <a href="#"
+                            class="text-blue-10 font-medium font-raleway px-10 py-4 bg-white filter drop-shadow-10">Let’s
+                            Party!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testmonial Section End -->
+
+
+
+
 </body>
 
 </html>

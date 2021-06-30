@@ -1,0 +1,1 @@
+npx tailwindcss -i tailwind.css -o ./public/assets/css/tailwind.css --watch --jit --purge="./public/**/*.html"
